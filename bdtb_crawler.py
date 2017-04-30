@@ -35,4 +35,8 @@ def getcontent(self):
         i = re.sub('<br>',"\n",i)
         f.write(i)
     f.close            
-bdtb1 = BDTB() print '开始爬取！' bdtb1.gettitle() bdtb1.getcontent() print '爬取完成！'
+bdtb1 = BDTB() 
+print '开始爬取！' 
+bdtb1.gettitle() 
+bdtb1.getcontent() 
+print '爬取完成！'
